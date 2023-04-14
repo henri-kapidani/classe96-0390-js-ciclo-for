@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(60, 70, 70);
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: 1rem;
+	max-width: 1000px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	width: 4rem;
+	height: 4rem;
+	background-color: rgb(95, 95, 184);
+}
